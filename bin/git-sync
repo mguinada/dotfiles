@@ -1,0 +1,6 @@
+#!/bin/bash
+
+echo "Repo sync (fast-forwards only):"
+git pull --ff-only
+git status --short
+echo
