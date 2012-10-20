@@ -1,0 +1,10 @@
+function rvmrcify {
+  dir=`basename $PWD`
+  ruby_version=1.9.3
+  if [ $# -ne 0 ]
+  then
+    ruby_version=$1
+  fi
+  rvm use $ruby_version@$dir --create --rvmrc
+  source .rvmrc 
+}
