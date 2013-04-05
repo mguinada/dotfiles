@@ -1,0 +1,10 @@
+#!/bin/bash
+#
+# From: http://ubuntuforums.org/showthread.php?t=1888639
+
+sudo apt-get clean
+sudo cd /var/lib/apt
+sudo mv lists lists.old
+sudo mkdir -p lists/partial
+sudo apt-get clean
+sudo apt-get update
