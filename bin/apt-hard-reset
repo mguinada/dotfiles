@@ -8,11 +8,3 @@ sudo mv lists lists.old
 sudo mkdir -p lists/partial
 sudo apt-get clean
 sudo apt-get update
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-
->>>>>>> apt-get hard reset utility
-=======
-
->>>>>>> apt-get-hard-reset renamed to apt-hard-reset
